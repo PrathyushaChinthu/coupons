@@ -17,7 +17,7 @@
     "image": "https://m.media-amazon.com/images/I/71DUP5JqcVL._SX466_.jpg",
     "url": "https://www.amazon.in/Fur-Jaden-resistant-Backpack-BM100_Brown/dp/B07P5X6NSN/",
     "dealPrice": 799,
-    "regularPrice": 799
+    "regularPrice": 999
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "image": "https://m.media-amazon.com/images/I/51v98MTwcoL._SX522_.jpg",
     "url": "https://www.amazon.in/Urban-Backpack-Repellent-litres-Laptop/dp/B08X2FD3T8/",
     "dealPrice": 1695,
-    "regularPrice": 1781
+    "regularPrice": 1695
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "image": "https://m.media-amazon.com/images/I/518xbQH9FLL._SX522_.jpg",
     "url": "https://www.amazon.in/Gods-Backpack-Compartment-Resistant-Capacity-25/dp/B077XJ4D6W",
     "dealPrice": 3399,
-    "regularPrice": 3399
+    "regularPrice": 3599
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "image": "https://m.media-amazon.com/images/I/71iMnsThZ8L._SX425_.jpg",
     "url": "https://www.amazon.in/SATYAM-KRAFT-Artificial-Chrysanthemum-Decorations/dp/B09MLPYQDR/",
     "dealPrice": 299,
-    "regularPrice": 299
+    "regularPrice": 399
   },
   {
     "id": 7,
@@ -77,7 +77,7 @@
     "image": "https://m.media-amazon.com/images/I/91XWgIMVtYL._SX425_.jpg",
     "url": "https://www.amazon.in/TIED-RIBBONS-Artificial-Decoration-Centerpieces/dp/B09D7ZDH4B/",
     "dealPrice": 499,
-    "regularPrice": 499
+    "regularPrice": 599
   },
   {
     "id": 9,
@@ -107,7 +107,7 @@
     "image": "https://m.media-amazon.com/images/I/51PLuZtGOsL._SX425_.jpg",
     "url": "https://www.amazon.in/Geometric-Flower-Vase-Removable-Design/dp/B0CRB7W8WS/",
     "dealPrice": 399,
-    "regularPrice": 399
+    "regularPrice": 499
   },
   {
     "id": 12,
@@ -117,6 +117,6 @@
     "image": "https://m.media-amazon.com/images/I/91YLrc1XtoL._SX425_.jpg",
     "url": "https://www.amazon.in/Chakra-Tree-Crystal-Positive-Energy/dp/B0B618QZ47/",
     "dealPrice": 474,
-    "regularPrice": 474
+    "regularPrice": 500
   }
 ]

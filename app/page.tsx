@@ -1,5 +1,4 @@
 import React from "react";
-import data from "../dummy-data.json";
 import { Box } from "@mui/material";
 import Cart from "./cart/page";
 const page = () => {
