@@ -59,22 +59,29 @@ const Dashboard = ({ data, setSortedData }: DashboardProps) => {
 
   return (
     <Box
+      py={5}
       style={{
         justifyContent: "center",
         alignItems: "center",
       }}
     >
-      <Sorting sortOrder={sortOrder} handleSort={handleSort} />
-      <BrandFilter
-        brandFilter={brandFilter}
-        setBrandFilter={setBrandFilter}
-        data={data}
-      />
-      <CategoryFilter
-        categoryFilter={categoryFilter}
-        setCategoryFilter={setCategoryFilter}
-        data={data}
-      />
+      <Box py={2} px={2}>
+        <Sorting sortOrder={sortOrder} handleSort={handleSort} />
+      </Box>
+      <Box py={2} px={2}>
+        <BrandFilter
+          brandFilter={brandFilter}
+          setBrandFilter={setBrandFilter}
+          data={data}
+        />
+      </Box>
+      <Box py={2} px={2}>
+        <CategoryFilter
+          categoryFilter={categoryFilter}
+          setCategoryFilter={setCategoryFilter}
+          data={data}
+        />
+      </Box>
     </Box>
   );
 };
