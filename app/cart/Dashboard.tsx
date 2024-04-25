@@ -1,6 +1,9 @@
-"use client";
-import React, { useState } from "react";
-import { Box, MenuItem, FormControl, InputLabel, Select } from "@mui/material";
+// Dashboard.tsx
+import React, { useState, useEffect } from "react";
+import { Box } from "@mui/material";
+import Sorting from "./components/Sorting";
+import BrandFilter from "./components/Brandfilter";
+import CategoryFilter from "./components/categoryfilter";
 
 interface DashboardProps {
   data: any[]; // Assuming data is passed as prop
@@ -9,6 +12,12 @@ interface DashboardProps {
 
 const Dashboard = ({ data, setSortedData }: DashboardProps) => {
   const [sortOrder, setSortOrder] = useState<string>("");
+  const [brandFilter, setBrandFilter] = useState<string>("");
+  const [categoryFilter, setCategoryFilter] = useState<string>("");
+
+  useEffect(() => {
+    applyFilters();
+  }, [brandFilter, categoryFilter]); // Listen for changes in brandFilter and categoryFilter
 
   const handleSort = (order: "asc" | "desc" | "newest") => {
     let sorted;
@@ -32,29 +41,40 @@ const Dashboard = ({ data, setSortedData }: DashboardProps) => {
     setSortOrder(order);
   };
 
+  const applyFilters = () => {
+    let filteredData = [...data];
+
+    if (brandFilter) {
+      filteredData = filteredData.filter((item) => item.brand === brandFilter);
+    }
+
+    if (categoryFilter) {
+      filteredData = filteredData.filter(
+        (item) => item.category === categoryFilter
+      );
+    }
+
+    setSortedData(filteredData);
+  };
+
   return (
     <Box
       style={{
-        display: "flex",
         justifyContent: "center",
         alignItems: "center",
       }}
     >
-      <FormControl fullWidth>
-        <InputLabel id="demo-simple-select-label">Sort by</InputLabel>
-        <Select
-          label="Sort by"
-          id="sort-select"
-          value={sortOrder}
-          onChange={(e) =>
-            handleSort(e.target.value as "asc" | "desc" | "newest")
-          }
-        >
-          <MenuItem value="asc">Price - Low to high</MenuItem>
-          <MenuItem value="desc">Price - High to low</MenuItem>
-          <MenuItem value="newest">Newest</MenuItem>
-        </Select>
-      </FormControl>
+      <Sorting sortOrder={sortOrder} handleSort={handleSort} />
+      <BrandFilter
+        brandFilter={brandFilter}
+        setBrandFilter={setBrandFilter}
+        data={data}
+      />
+      <CategoryFilter
+        categoryFilter={categoryFilter}
+        setCategoryFilter={setCategoryFilter}
+        data={data}
+      />
     </Box>
   );
 };
