@@ -3,7 +3,7 @@
     "id": 1,
     "brand": "Safari",
     "category": "backpack",
-    "createdAt": " ",
+    "createdAt": "2023-07-15T08:30:00.000Z",
     "title": "Safari Omega spacious/large laptop backpack with Raincover, college bag, travel bag for men and women",
     "mrp": 3396,
     "asin": "B097JJ2CK6",
@@ -22,6 +22,7 @@
     "image": "https://m.media-amazon.com/images/I/91aJWbJxkzL._SL1500_.jpg",
     "url": "https://www.amazon.in/Fur-Jaden-resistant-Backpack-BM100_Brown/dp/B07P5X6NSN/",
     "dealPrice": 799,
+    "createdAt": "2023-06-22T15:45:00.000Z",
     "regularPrice": 999
   },
   {
@@ -34,6 +35,7 @@
     "image": "https://m.media-amazon.com/images/I/51v98MTwcoL._SX522_.jpg",
     "url": "https://www.amazon.in/Urban-Backpack-Repellent-litres-Laptop/dp/B08X2FD3T8/",
     "dealPrice": 1695,
+    "createdAt": "2023-08-05T10:20:00.000Z",
     "regularPrice": 1695
   },
   {
@@ -46,6 +48,7 @@
     "image": "https://m.media-amazon.com/images/I/518xbQH9FLL._SX522_.jpg",
     "url": "https://www.amazon.in/Gods-Backpack-Compartment-Resistant-Capacity-25/dp/B077XJ4D6W",
     "dealPrice": 3399,
+    "createdAt": "2023-09-18T12:10:00.000Z",
     "regularPrice": 3599
   },
   {
@@ -58,22 +61,29 @@
     "image": "https://m.media-amazon.com/images/I/71jwO2MnbML._SX425_.jpg",
     "url": "https://www.amazon.in/SPHINX-Decorative-Flowers-Plants-Decorations/dp/B0CSWJ39V4",
     "dealPrice": 229,
+    "createdAt": "2023-10-03T14:55:00.000Z",
     "regularPrice": 229
   },
   {
     "id": 6,
+    "brand": "SATYAM KRAFT",
+    "category": "decor",
     "title": "SATYAM KRAFT 5 Pcs Artificial Chrysanthemum Ball Hydrangea Flower Stick for Home, Office, Bedroom, Balcony, Living Room Decoration(Pack of 5) (Silver Mauve) (Without Vase Pot)",
     "mrp": 1200,
     "asin": "B09MLPYQDR",
     "image": "https://m.media-amazon.com/images/I/71iMnsThZ8L._SX425_.jpg",
     "url": "https://www.amazon.in/SATYAM-KRAFT-Artificial-Chrysanthemum-Decorations/dp/B09MLPYQDR/",
     "dealPrice": 299,
+    "createdAt": "2023-11-12T09:25:00.000Z",
     "regularPrice": 399
   },
   {
     "id": 7,
+    "brand": "TIED RIBBONS",
+    "category": "Flower Vase",
     "title": "TIED RIBBONS Cycle Shape Flower Vase with Peonies Bunches for Home Decor Center Table Bedroom Living Room Office Bathroom Decorative Gift Items (19 cm x 21 cm)",
     "mrp": 1099,
+    "createdAt": "2023-12-05T13:40:00.000Z",
     "asin": "B01DNRFV4G",
     "image": "https://m.media-amazon.com/images/I/51109MW81iL._SX300_SY300_QL70_FMwebp_.jpg",
     "url": "https://www.amazon.in/TIED-RIBBONS-Plastic-Peonies-Bunches/dp/B01DNRFV4G/",
@@ -82,8 +92,11 @@
   },
   {
     "id": 8,
+    "brand": "TIED RIBBONS",
+    "category": "Flower Vase",
     "title": "TIED RIBBONS Multicolor Flowers with Mercury Glass Vase for Home Decor Center Table Bedroom Living Room and Office Decoration (Multicolor)",
     "mrp": 1299,
+    "createdAt": "2024-01-08T16:50:00.000Z",
     "asin": "B09D7ZDH4B",
     "image": "https://m.media-amazon.com/images/I/91XWgIMVtYL._SX425_.jpg",
     "url": "https://www.amazon.in/TIED-RIBBONS-Artificial-Decoration-Centerpieces/dp/B09D7ZDH4B/",
@@ -92,8 +105,11 @@
   },
   {
     "id": 9,
+    "brand": "NOUMAN HANDICRAFTS",
+    "category": "Flower Vase",
     "title": "M/S NOUMAN HANDICRAFTS Metal Flower Vase with Gold Finish | Geometric Half Moon Design Flower Pot Stand | Table Top Decorative Flower Pot | for Home and Office Side Table Decoration",
     "mrp": 449,
+    "createdAt": "2024-02-22T10:15:00.000Z",
     "asin": "B0CHRLGKGD",
     "image": "https://m.media-amazon.com/images/I/41haQSKi3EL._SX425_.jpg",
     "url": "https://www.amazon.in/dp/B0CHRLGKGD/",
@@ -102,32 +118,41 @@
   },
   {
     "id": 10,
+    "brand": "Next",
+    "category": "decor",
     "title": "Next in Crafts White Female Lady Head Face Home Decoration Resin Vase Statue Sculpture Makeup Brush Holder Storage Box Pen Holder Creative Flower Pot Art Supplies",
     "mrp": 1999,
     "asin": "B0CKT21B92",
     "image": "https://m.media-amazon.com/images/I/61747ZGDHpL._SX425_.jpg",
     "url": "https://www.amazon.in/dp/B0CKT21B92/",
     "dealPrice": 499,
+    "createdAt": "2024-03-11T17:20:00.000Z",
     "regularPrice": 499
   },
   {
     "id": 11,
-    "title": "asdfghNext in Crafts Metal Geometric Designer Gold Pillar Flower Vase with Removable Glass Modern Design for Pot, Gift, Home Decor, Bedroom, Office Corner, Christmas, New Year Décor Item (Gold)",
+    "brand": "Next",
+    "category": "Flower Vase",
+    "title": "Next in Crafts Metal Geometric Designer Gold Pillar Flower Vase with Removable Glass Modern Design for Pot, Gift, Home Decor, Bedroom, Office Corner, Christmas, New Year Décor Item (Gold)",
     "mrp": 999,
     "asin": "B0CRB7W8WS",
     "image": "https://m.media-amazon.com/images/I/51PLuZtGOsL._SX425_.jpg",
     "url": "https://www.amazon.in/Geometric-Flower-Vase-Removable-Design/dp/B0CRB7W8WS/",
     "dealPrice": 399,
+    "createdAt": "2024-02-11T17:20:00.000Z",
     "regularPrice": 499
   },
   {
     "id": 12,
+    "brand": "HindCraft",
+    "category": "decor",
     "title": "HindCraft Chakra Tree, Crystal Tree for Positive Energy - Crystals & Healing Stones - Feng Shui Seven Chakra Tree of Life Decor - Home Decorations for Living Room, 7 Chakra Tree, 200 Beads, 8-10",
     "mrp": 1999,
     "asin": "B0B618QZ47",
     "image": "https://m.media-amazon.com/images/I/91YLrc1XtoL._SX425_.jpg",
     "url": "https://www.amazon.in/Chakra-Tree-Crystal-Positive-Energy/dp/B0B618QZ47/",
     "dealPrice": 474,
+    "createdAt": "2024-08-11T17:20:00.000Z",
     "regularPrice": 500
   }
 ]

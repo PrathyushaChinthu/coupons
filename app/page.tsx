@@ -1,27 +1,38 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import { Box } from "@mui/material";
 import Cart from "./cart/page";
-const page = () => {
+import Dashboard from "./cart/Dashboard";
+import data from "../dummy-data.json";
+const Page = () => {
+  const [sortedData, setSortedData] = useState(data);
   const ids = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
   return (
-    <Box
-      bgcolor="white"
-      p={2}
-      display="flex"
-      flexWrap="wrap"
-      justifyContent="space-between"
-    >
-      {ids.map((id) => (
-        <Box key={id} width="calc(25% - 16px)" mb={2}>
-          <Cart id={id} />
+    <Box display="flex">
+      <Box width="20%">
+        <Dashboard data={sortedData} setSortedData={setSortedData} />
+      </Box>
+      <Box width="80%">
+        <Box
+          bgcolor="white"
+          p={2}
+          display="flex"
+          flexWrap="wrap"
+          justifyContent="space-between"
+        >
+          {sortedData.map((item) => (
+            <Box key={item.id} width="calc(25% - 16px)" mb={2}>
+              <Cart id={item.id} />
+            </Box>
+          ))}
         </Box>
-      ))}
+      </Box>
     </Box>
   );
 };
 
-export default page;
+export default Page;
 
 // import React from "react";
 
