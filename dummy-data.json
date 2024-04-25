@@ -1,6 +1,9 @@
 [
   {
     "id": 1,
+    "brand": "Safari",
+    "category": "backpack",
+    "createdAt": " ",
     "title": "Safari Omega spacious/large laptop backpack with Raincover, college bag, travel bag for men and women",
     "mrp": 3396,
     "asin": "B097JJ2CK6",
@@ -11,16 +14,20 @@
   },
   {
     "id": 2,
+    "brand": "FUR JADEN",
+    "category": "backpack",
     "title": "FUR JADEN Vegan Leather 30L 15.6 Inch Laptop Backpack for Men Women for Office Professionals and College Students",
     "mrp": 3000,
     "asin": " B07P5X6NSN",
-    "image": "https://m.media-amazon.com/images/I/71DUP5JqcVL._SX466_.jpg",
+    "image": "https://m.media-amazon.com/images/I/91aJWbJxkzL._SL1500_.jpg",
     "url": "https://www.amazon.in/Fur-Jaden-resistant-Backpack-BM100_Brown/dp/B07P5X6NSN/",
     "dealPrice": 799,
     "regularPrice": 999
   },
   {
     "id": 3,
+    "brand": "URBAN TRIBE",
+    "category": "backpack",
     "title": "URBAN TRIBE Amigo 31L Travel Backpack for Men & Women | Laptop Bag 15.6 inch | Overnighter Backpack | Convertible |",
     "mrp": 3299,
     "asin": "B08X2FD3T8",
@@ -31,6 +38,8 @@
   },
   {
     "id": 4,
+    "brand": "Gods GHOST",
+    "category": "backpack",
     "title": "Gods GHOST 25 ltr Anti Theft 15.6 inch Laptop Tech Backpack for Men, Women, Boys, Girls | Premium bags for Gift | Bike Riding Bag for College, Travel, Office, Flight luggage | Black",
     "mrp": 4800,
     "asin": "B077XJ4D6W",
@@ -41,6 +50,8 @@
   },
   {
     "id": 5,
+    "brand": "SPHINX",
+    "category": "decor",
     "title": "SPHINX Decorative Glass Vase for Flowers Plants Home Decor Office Living Table Decorations, Vases for Home Decor, Luster Glass Vase,Modern Glass Vase - (Crystal Amber, Approx 9 Inches Height)",
     "mrp": 999,
     "asin": "B0CSWJ39V4",

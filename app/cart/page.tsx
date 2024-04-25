@@ -24,7 +24,7 @@ const Cart = ({ id }: CartProps) => {
   return (
     <Box bgcolor="black" mb={2} height="90%">
       <Link href={url} underline="none" color="inherit">
-        <Card sx={{ p: 2, height: "100%", position: "relative" }}>
+        <Card sx={{ p: 4, height: "100%", position: "relative" }}>
           {dealPrice !== regularPrice && (
             <Typography
               variant="body1"
@@ -34,15 +34,22 @@ const Cart = ({ id }: CartProps) => {
                 color: "white",
                 padding: "2px 8px",
                 position: "absolute",
-                top: 0,
-                left: 0,
+
+                top: 20,
+                left: 20,
                 zIndex: 1,
               }}
             >
               {discountPercentage}% off
             </Typography>
           )}
-          <Box>
+          <Box
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
             <Image src={image} alt={title} width={400} height={400} />
           </Box>
           <Typography variant="h6">{truncatedTitle}</Typography>
