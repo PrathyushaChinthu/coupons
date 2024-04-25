@@ -3,12 +3,12 @@ import React, { useState } from "react";
 import { Box, MenuItem, FormControl, InputLabel, Select } from "@mui/material";
 
 interface DashboardProps {
-  data: any[];
-  setSortedData: React.Dispatch<React.SetStateAction<any[]>>; // Function to set sorted data
+  data: any[]; // Assuming data is passed as prop
+  setSortedData: (sortedData: any[]) => void; // Function to set sorted data
 }
 
-const Dashboard: React.FC<DashboardProps> = ({ data, setSortedData }) => {
-  const [sortOrder, setSortOrder] = useState("");
+const Dashboard = ({ data, setSortedData }: DashboardProps) => {
+  const [sortOrder, setSortOrder] = useState<string>("");
 
   const handleSort = (order: "asc" | "desc" | "newest") => {
     let sorted;
@@ -21,7 +21,8 @@ const Dashboard: React.FC<DashboardProps> = ({ data, setSortedData }) => {
         break;
       case "newest":
         sorted = [...data].sort(
-          (a, b) => new Date(b.createdAt) - new Date(a.createdAt)
+          (a, b) =>
+            new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
         );
         break;
       default:
